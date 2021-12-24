@@ -14,8 +14,8 @@ $dark-grayish-red: hsl(0, 6%, 24%);
 
 // ### Gradients
 
-$linear-1: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
-$linear-2: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+$linear-1: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+$linear-2: linear-gradient(135deg, hsl(0, 80%, 86%),hsl(0, 74%, 74%));
 
 // ## Typography
 
@@ -23,11 +23,9 @@ $linear-2: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
 
 $font-size: 16px;
 $font-family: 'Josefin Sans', sans-serif;
-$font-weight: (
-    '300',
-    '400',
-    '600',
-)
+$fontLight: 300;
+$fontNormal: 400;
+$fontSemiBold: 600;
 // ### Font
 
 // - Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
